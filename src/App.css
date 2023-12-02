@@ -14,6 +14,59 @@
   background-attachment: fixed;
 }
 
+@media (max-width: 320px) {
+  .header{
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 345px) {
+  .card-wrapper {
+  min-width: 20rem;
+  width: 100%;
+  }
+
+  .header{
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 425px) {
+.card-wrapper{
+  min-width: 20rem;
+  width: 100%;
+}
+
+.header{
+  background-attachment: scroll;
+}
+}
+
+@media (min-width: 768px ){
+  .header{
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 1024px ){
+  .header{
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 1440px ){
+  .header{
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 2560px ){
+  .header{
+    background-attachment: fixed;
+    height: 25rem;
+  }
+}
+
+
+
+
 
 .header h2{
   background: linear-gradient(145deg, #FFF, #FFF);
