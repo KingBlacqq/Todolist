@@ -1,0 +1,1 @@
+export {default as Header} from "./HEADER-BACKGROUND.jpg";
